@@ -1,0 +1,18 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# Output
+output/generated_docs/*
+output/logs/*
+!output/generated_docs/.gitkeep
+!output/logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+.venv/
