@@ -3,6 +3,9 @@
 __pycache__/
 *.pyc
 
+# Streamlit secrets (contains credentials — never commit)
+.streamlit/secrets.toml
+
 # Output
 output/generated_docs/*
 output/logs/*
